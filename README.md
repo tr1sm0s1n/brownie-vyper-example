@@ -1,6 +1,6 @@
 # Brownie-Vyper-Example
 
-Example project to test/compile/deploy smart contracts written in Vyper using Brownie.
+Example project to compile/test/deploy smart contracts written in Vyper using Brownie.
 
 ## 🛠 Built With
 
@@ -36,6 +36,12 @@ Compile the contract
 
 ```bash
 brownie compile
+```
+
+Test the contract
+
+```bash
+brownie test
 ```
 
 Deploy the contract
