@@ -10,7 +10,7 @@ def test_deploy():
 def test_issue():
     trx = cert.issue(256, 'Raven', 'MBCC', 'S', '2031-01-01',
                      '0x2f44454d59535449462f6e6578742d63657274696669636174652d646170702f', {'from': accounts[0], 'priority_fee': 10, 'max_fee': 1000000000})
-    assert trx.events['Issued'].values() == [256, 'GOK', '2031-01-01']
+    assert trx.events['Issued'].values() == [256, 'MBCC', '2031-01-01']
 
 
 def test_read():
