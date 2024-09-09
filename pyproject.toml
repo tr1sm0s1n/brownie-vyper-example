@@ -1,0 +1,9 @@
+[project]
+name = "brownie-vyper-example"
+version = "0.1.0"
+description = "Example project to compile/test/deploy smart contracts written in Vyper using Brownie."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "eth-brownie>=1.20.6",
+]
